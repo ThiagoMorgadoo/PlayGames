@@ -22,7 +22,7 @@ namespace PlayGames.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PlayGames.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PlayGames.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PlayGames.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1407976_mario_kart_8 {
+        public static System.Drawing.Bitmap _1407976_mario_kart_8 {
             get {
                 object obj = ResourceManager.GetObject("_1407976_mario_kart_8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,17 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images {
+        public static System.Drawing.Bitmap Console_SuperNitendo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Console_SuperNitendo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +93,17 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maxresdefault_9 {
+        public static System.Drawing.Bitmap Logo_SuperNintendo {
+            get {
+                object obj = ResourceManager.GetObject("Logo_SuperNintendo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap maxresdefault_9 {
             get {
                 object obj = ResourceManager.GetObject("maxresdefault_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +113,7 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap super_mario_all_stars___super_mario_world_hd_wallpapers_33717_794428 {
+        public static System.Drawing.Bitmap super_mario_all_stars___super_mario_world_hd_wallpapers_33717_794428 {
             get {
                 object obj = ResourceManager.GetObject("super_mario_all_stars___super_mario_world_hd_wallpapers_33717_794428", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +123,7 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap super_mario_world_2 {
+        public static System.Drawing.Bitmap super_mario_world_2 {
             get {
                 object obj = ResourceManager.GetObject("super_mario_world_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +133,7 @@ namespace PlayGames.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Super_Mario_World_Cover {
+        public static System.Drawing.Bitmap Super_Mario_World_Cover {
             get {
                 object obj = ResourceManager.GetObject("Super_Mario_World_Cover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

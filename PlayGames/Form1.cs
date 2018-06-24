@@ -1,5 +1,6 @@
 ﻿using PlayGames.Properties;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace PlayGames
         public Form1()
         {
             this.BackgroundImage = Properties.Resources.super_mario_world_2;
+            
             InitializeComponent();
         }
 
@@ -37,6 +39,12 @@ namespace PlayGames
 
             int index = DateTime.Now.Second % 4;
             this.BackgroundImage = b1[index];
+        }
+
+        private void Super_Nitendo_Click(object sender, EventArgs e)
+        {
+            Frm_SuperNintendo frm = new Frm_SuperNintendo();
+            frm.Show();
         }
     }
 }

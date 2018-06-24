@@ -30,6 +30,7 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.Super_Nitendo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -56,13 +57,24 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "V.1.0";
             // 
+            // Super_Nitendo
+            // 
+            this.Super_Nitendo.Location = new System.Drawing.Point(41, 222);
+            this.Super_Nitendo.Name = "Super_Nitendo";
+            this.Super_Nitendo.Size = new System.Drawing.Size(75, 38);
+            this.Super_Nitendo.TabIndex = 4;
+            this.Super_Nitendo.Text = "button1";
+            this.Super_Nitendo.UseVisualStyleBackColor = true;
+            this.Super_Nitendo.Click += new System.EventHandler(this.Super_Nitendo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PlayGames.Properties.Resources.super_mario_world_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1386, 740);
+            this.ClientSize = new System.Drawing.Size(689, 461);
+            this.Controls.Add(this.Super_Nitendo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -79,6 +91,7 @@
         #endregion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button Super_Nitendo;
     }
 }
 
